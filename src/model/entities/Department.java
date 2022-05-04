@@ -8,18 +8,16 @@ public class Department implements Serializable {
 
 	private Integer id;
 	private String name;
-
+	
 	
 	public Department() {
 	}
 
-	
 	public Department(Integer id, String name) {
 		this.id = id;
 		this.name = name;
 	}
 
-	
 	
 	
 	public Integer getId() {
@@ -38,9 +36,6 @@ public class Department implements Serializable {
 		this.name = name;
 	}
 
-	
-	
-	
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -49,6 +44,8 @@ public class Department implements Serializable {
 		return result;
 	}
 
+	
+	
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
